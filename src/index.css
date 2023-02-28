@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.activado {
+    @apply active:bg-yellow-600 active:duration-150 lg:active:h-[77px] active:h-[29px];
+}
+
+.activado_key {
+    @apply bg-yellow-600 duration-150 h-[29px] md:h-[77px];
+}
