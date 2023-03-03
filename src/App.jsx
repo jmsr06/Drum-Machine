@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div className=' relative w-full h-screen bg-gray-300 flex flex-col justify-center items-center' onKeyDown={playKey} onKeyUp={changeKey} tabIndex="0">
-      <h1 className='text-4xl font-bold absolute top-40'>Drum Machine</h1>
+      <h1 className='text-4xl font-bold absolute top-40 lg:top-10'>Drum Machine</h1>
       <div className="flex flex-row bg-black border-4 border-[#636363] w-4/5 md:w-2/3 p-6" id="drum-machine">
         <div className='w-2/3 grid grid-cols-3 gap-1 md:gap-2 place-items-center font-bold'>
           <div onClick={play} className='drum-pad w-full h-8 md:h-20 flex items-center justify-center bg-[#00A19B] rounded-sm cursor-pointer shadow-md activado' id="audio-Q"><audio id="Q" className='clip' src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" />Q</div>
